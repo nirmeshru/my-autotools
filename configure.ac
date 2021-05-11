@@ -1,2 +1,7 @@
 AC_INIT([hello], [1.0])
+AC_PREREQ([2.69])
+AC_CONFIG_SRCDIR([hello.c])
+AC_INIT_AUTOMAKE([foreign 1.13])
+AC_CC_PROG
+AC_CONFIG_FILES([Makefile])
 AC_OUTPUT
